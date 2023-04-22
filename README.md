@@ -5,13 +5,13 @@ the four TCP variants, you need to first set up a network topology. Use the foll
 your experiments, and set the bandwidth of each link to 10Mbps:
 
 ```
-N1 						  N4
-  \ 					  /
-   \ 		   			 /
+   N1 			       N4
+     \ 			      /
+      \ 		     /
 	N2-----------------N3
-	/                   \
-   /                     \
- N5                       N6
+       /                    \
+      /                      \
+    N5                        N6
 ```
 
 Using this topology, you will perform tests that analyze the performance of different TCP
